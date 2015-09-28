@@ -1,0 +1,66 @@
+body {
+	background-color: none;
+	vertical-align: center;
+	text-align: center;
+	border: 10px solid navy;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: "Comic Sans MS";
+
+}
+
+h3 {
+	font-size: 18px;
+	font-family: "Courier New";
+}
+
+h4 {
+	font-size: 18px;
+}
+
+.top{
+	overflow: hidden;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.bottom{
+	overflow: hidden;
+	clear: both;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.left {
+	font-family: "Comic Sans MS";
+	float: left;
+	width: 25%;
+	margin-left: 40px;
+	margin-top: 40px;
+	border: 3px solid navy;
+	clear: left;
+}
+
+.center {
+	font-family: "Courier New";
+	width: 35%;
+	margin: auto;
+	margin-top: 40px;
+	border: 3px solid navy;
+}
+
+.right {
+	float: right;	
+	width: 20%;
+	margin-right: 40px;
+	margin-top: 40px;
+	border: 3px solid navy;
+	clear: none;
+}
+
+.billion {
+	font-weight: bolder;
+	color: red;
+}
