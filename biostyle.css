@@ -3,7 +3,7 @@ body {
 	vertical-align: center;
 	text-align: center;
 	border: 10px solid #000000;
-	font-family: "Copperplate";
+	font-family: "Trebuchet MS";
 	background: url(./backgroundimage.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover; 
@@ -46,6 +46,7 @@ h4 {
 	margin-left: 40px;
 	margin-top: 40px;
 	border: 5px solid black;
+	display: inline-block;
 	clear: left;
 }
 
@@ -54,14 +55,17 @@ h4 {
 	width: 35%;
 	margin: auto;
 	margin-top: 40px;
+	display: inline-block;
 	border: 5px solid black;
 }
 
 .right {
 	float: right;	
-	width: 20%;	
+	width: 25%;	
 	margin-right: 40px;
 	margin-top: 40px;
+	display: inline-block;
+	font-size: 18px;
 	border: 5px solid black;
 	clear: none;
 }
@@ -69,4 +73,11 @@ h4 {
 .billion {
 	font-weight: bolder;
 	color: red;
+}
+
+img {
+
+	height: 180px;
+	width: 200px;
+
 }
