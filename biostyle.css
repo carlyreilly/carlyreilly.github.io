@@ -4,7 +4,7 @@ body {
 	text-align: center;
 	border: 10px solid #000000;
 	font-family: "Trebuchet MS";
-	background: url(./backgroundimage.jpg) no-repeat center center fixed; 
+	background: url(./BackgroundImage.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover; 
   	-o-background-size: cover; 
@@ -62,6 +62,7 @@ h4 {
 .right {
 	float: right;	
 	width: 25%;	
+	padding-bottom: 0px;
 	margin-right: 40px;
 	margin-top: 40px;
 	display: inline-block;
@@ -76,7 +77,8 @@ h4 {
 }
 
 img {
-
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 	height: 180px;
 	width: 200px;
 
