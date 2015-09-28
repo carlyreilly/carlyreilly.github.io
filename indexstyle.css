@@ -1,50 +1,43 @@
 body{
-	text-align: center;
+	text-align: left;
 	font-family: "Copperplate";
 	font-weight: bold;
-	background: url(./alternativebackground?.jpg) no-repeat center center fixed; 
+	background: url(./backgroundimage.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+  	-moz-background-size: cover; 
+  	-o-background-size: cover; 
+  	background-size: cover; 
 }
 
 h1 {
 	font-size: 48px;
-	color: #FFFAF0;
+	color: black;
 	text-align: left;
 	margin-left: 40px;
 }
 
 a:link {
+	color: black;
     text-decoration: none;
 }
 
-.bio {
-	float: right;
-	border: 3px solid navy;
-	font-size: 36px;
+a:visited {
+	color: #A9A9A9;
 }
 
-.resume {
-	float: right;
-	border: 3px solid navy;
-	font-size: 36px;
-}
-
-.home {
-	float: right;
-	border: 3px solid navy;
+.linktext {
 	font-size: 36px;
 }
 
 img {
 	float: left;
-	width: 300px;
-	height: 300px;
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
-	margin-top: 1px;
-	margin-left: 100px;
+	position: relative;
+	left: 400px;
+	bottom: 100px;
+	border: 3px solid black;
 }
 
 

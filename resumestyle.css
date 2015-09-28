@@ -1,51 +1,29 @@
 body {
-	border: 10px solid navy;
-	text-align: center;
-
+	border: 5px solid black;
+	font-weight: bolder;
+	font-family: "Copperplate";
+	background: url(./backgroundimage.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover; 
+  	-o-background-size: cover; 
+  	background-size: cover;
 }
 
 h1 {
 	text-align: center;
-	font-size: 48px;
 }
 
 h2 {
-	text-align: left;
-	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 50px;
+	border: 3px solid black;
 }
 
 h3 {
-	text-align: left;
-	font-size: 20px;
+	margin-left: 20px;
 }
 
-h4 {
-	text-align: left;
-	font-size: 20px;
+.content {
+	margin-left: 20px;
 }
 
-h5 {
-	text-align: left;
-	font-size: 20px;
-}
-
-h6 {
-	text-align: left;
-	font-size: 20px;
-}
-
-#date {
-	float: left;
-}
-
-#title {
-	margin-left: 130px;
-}
-
-#location {
-	margin-left: 500px;
-}
-
-#role {
-	margin-left: 130px;
-}
